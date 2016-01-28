@@ -1,6 +1,9 @@
 # Test-work
 Выполненное тестовое задание
 
+![GitHub Logo](/doc/screenshot.jpg)
+
+
 Установка:
 ----------
 **npm install**
