@@ -1,0 +1,118 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  z-index: 10;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  @media only screen and (max-width: 720px) {
+    position: static;
+    background: #ffcb2a;
+  }
+  @media only screen and (max-width: 640px){
+    padding-bottom: 10px;
+  }
+  @media only screen and (max-width: 480px){
+    flex-direction: column;
+    padding-top: 0;
+    margin: 0;
+  }
+}
+
+.header-logo{
+  margin-top: 40px;
+  @media only screen and  (max-width: 480px){
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.header-logo__name {
+  font: 1.5em "Roboto", sans-serif;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  > span {
+    font: 2em "Roboto", sans-serif;
+    color: #ffea00;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+}
+
+.header-menu{
+  margin-top: 35px;
+  @media only screen and (max-width: 480px) {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.header-links{
+  display: flex;
+  justify-content: flex-end;
+  @media only screen and  (max-width: 640px){
+    flex-direction: column;
+  }
+}
+
+.header-links__link {
+  font: 2em "Roboto", sans-serif;
+  color: rgb(0, 17, 17);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 25px;
+  &:last-of-type {
+    border-left: 1px solid #ffffff;
+    padding-right: 0;
+  }
+  @media only screen and (max-width: 991px) {
+    font: 1.5em "Roboto", sans-serif;
+    padding: 0 15px;
+  }
+
+  @media only screen and (max-width: 640px) {
+    padding: 0;
+    &:last-of-type {
+      border: none;
+      padding: 0;
+    }
+  }
+}
+
+.header-button {
+  text-align: right;
+  margin-top: 30px;
+  @media only screen and (max-width: 640px) {
+    margin-top: 10px;
+  }
+  @media only screen and (max-width: 480px){
+    text-align: center;
+  }
+}
+
+.header-button__btn {
+  color: #facf6d;
+  background: #ffffff;
+  border-right: 15px;
+  border: none;
+  padding: 15px 50px;
+  font-size: 1.3em;
+  border-radius: 50px;
+  @media only screen and (max-width: 991px){
+    padding: 10px 30px;
+    font-size:1em;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<!-- @include layouts/start-page.html -->
+<div id="wrapper">
+
+    <header class="header">
+        <div class="header-logo">
+            <h1 class="header-logo__name">
+                Богдановский<br><span>карьер</span>
+            </h1>
+        </div>
+
+        <div class="header-menu">
+            <div class="header-links">
+                <a href="#produce" class="header-links__link">Производство</a>
+                <a href="#address" class="header-links__link">Адрес карьера</a>
+            </div>
+            <div class="header-button">
+                <button class="header-button__btn" id="modal-button">Заказать звонок</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/slide.jpg" alt="slide"></div>
+            <div class="swiper-slide"><img src="img/slide.jpg" alt="slide"></div>
+            <div class="swiper-slide"><img src="img/slide.jpg" alt="slide"></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"><span class="fa fa-arrow-left"></span></div>
+        <div class="swiper-button-next"><span class="fa fa-arrow-right"></span></div>
+    </div>
+
+    <div class="content-wrapper">
+        <main class="content">
+            <h2 class="content__header content__header--line" id="produce">Производим и продаем щебень</h2>
+
+            <p class="content__paragraph">Площадь участка 96,1 га. Щебень и гравий из плотных пород для строительных работ.
+                Прочность соответствует марке 800 (ДР-12). Запасы по гравию 28 %. Пески и пески-отсевы Богдановского-2
+                участка могут быть использованы в качестве строительного и дорожного материала. Мощность толщи 12-22,1
+                метра. Уровень грунтовых вод расположен ниже подошвы полезной толщи. Концентрация радионуклидов
+                соответствует 1 классу СП 2.6.1.758-99.</p>
+
+            <p class="content__paragraph content__paragraph--margin"><strong>Щебень 20×40</strong> пригоден в
+                производстве бетона и изготовлении конструкций из него, для дорожного строительства при закладке фундамента
+                зданий, при возведении производственных всех видов сооружений и др.</p>
+
+            <h2 class="content__header content__header--line" id="address">Адрес карьера</h2>
+
+            <p class="content__paragraph content__paragraph--margin-bottom"><img src="img/place-point.png" alt="place" class="content__paragraph__image">поселок Ханино, Суворовский район, Тульская область, Россия</p>
+        </main>
+        <div class="content-wrapper__address">
+            <h2 class="content-wrapper__name">Контакты</h2>
+            <strong>Звоните:</strong>
+            <div class="content-wrapper__phone">8 (800) <strong>555-93-99</strong></div>
+            <div class="content-wrapper__phone">8 (800) <strong>638-55-85</strong></div>
+        </div>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18666.761573465228!2d36.59990939906895!3d54.209377328894156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4134840371e383e9%3A0x230bb794287d4212!2z0KXQsNC90LjQvdC-LCDQotGD0LvRjNGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgMzAxNDIw!5e0!3m2!1sru!2sua!4v1453927183203"
+            frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+    <footer class="footer">
+        <p class="footer__content">&copy 2015, Copyright</p>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal-window" id="modal-window">
+            <h2 class="modal-window__header">Модальное окно</h2>
+            <p class="modal-window__body">"Тест"</p>
+            <button class="modal__close" id="close-modal"><span class="fa fa-times"></span></button>
+        </div>
+    </div>
+
+</div>
+<!-- @include layouts/end-page.html -->
